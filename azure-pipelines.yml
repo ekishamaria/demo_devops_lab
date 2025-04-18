@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: ekisha_demo
 
 steps:
 - task: Maven@3
